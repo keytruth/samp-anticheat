@@ -18,7 +18,7 @@ public OnPlayerCheat(playerid, const code)
 ```
 
 Codes anti-cheat:
-> 1 - Teleport
+```1 - Teleport
 2 - Speed Hack
 3 - Slapper (invalid name)
 4 - Health Hack
@@ -33,3 +33,4 @@ Codes anti-cheat:
 13 - Silent Aimbot
 14 - Pro Aimbot
 15 - Tele-Kill (Custom)
+```
