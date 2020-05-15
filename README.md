@@ -1,6 +1,6 @@
 # samp-anticheat
 
-(This system contains code snippets that have been made publicly available)
+(This system contains code snippets that have been made publicly available)  
 A simple anti-cheat system for your SA-MP server.
 
 ### Callback
