@@ -1,10 +1,35 @@
-И однажды наступил Великий потоп. И Ной сказал:
-«Только всякой твари — по паре! А Одиночкам — фикус!!!»
-Любовь стала искать себе пару — Гордость, Богатство,
-Славу, Радость, но у них уже были спутники.
-И тогда пришла к ней Разлука, и сказала:
-«Я тебя люблю».
-Любовь быстренько прыгнула с ней в Ковчег.
-Но Разлука на самом деле влюбилась в Любовь и не
-захотела расстаться с ней даже на земле.
-И теперь всегда за Любовью следом идет Разлука…
+# samp-anticheat
+
+(This system contains code snippets that have been shared.)
+
+A simple anti-cheat system for your SA-MP server.
+
+Use the following callback for actions when suspicious cheats are detected:
+
+playerid - ID of the player who is suspected of using cheats.
+code - the cheat code that the player is suspected of using. (You can view the codes below)
+
+```pawn
+public OnPlayerCheat(playerid, const code)
+{
+    Kick(playerid); // Example action
+    return 1;
+}
+```
+
+Codes anti-cheat:
+> 1 - Teleport
+2 - Speed Hack
+3 - Slapper (invalid name)
+4 - Health Hack
+5 - Armour Hack
+6 - Money Hack
+7 - High Ping
+8 - Weapon&Ammo Hack
+9 - Invisible Hack
+10 - Parkour Mod
+11 - CJ-Run
+12 - Slapper
+13 - Silent Aimbot
+14 - Pro Aimbot
+15 - Tele-Kill (Custom)
