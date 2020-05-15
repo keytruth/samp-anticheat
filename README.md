@@ -3,7 +3,7 @@
 (This system contains code snippets that have been shared.)
 A simple anti-cheat system for your SA-MP server.
 
-## Callback
+### Callback
 Use the following callback for actions when suspicious cheats are detected:
 
 ```
@@ -18,7 +18,7 @@ public OnPlayerCheat(playerid, const code)
 }
 ```
 
-## Codes anti-cheat:
+### Codes anti-cheat:
 ```
 1 - Teleport
 2 - Speed Hack
